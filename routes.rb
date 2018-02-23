@@ -4,6 +4,10 @@ class Food < Sinatra::Base
     erb :home
   end
 
+  get "/create" do
+    erb :create
+  end
+
   get "/apps/new" do
     erb :new
   end
