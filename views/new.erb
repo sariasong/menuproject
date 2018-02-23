@@ -1,0 +1,13 @@
+<h1 class="center">Add A New Food</h1>
+<form method="POST" action="/apps">
+  <div class="input-field">
+    <input id="title" required name="title" />
+    <label class="active" for="title">Title</label>
+  </div>
+          <span class="card-title light-green darken-2"><%= app.title %></span>
+          <div class="input-field ">
+    <textarea class="materialize-textarea" id="desc" required name="description"></textarea>
+    <label for="desc" class="active">Description</label>
+  </div>
+  <button class="btn right orange darken-3" type="submit">Save</button>
+</form>
